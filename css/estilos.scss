@@ -1,0 +1,16 @@
+$sprite-spacing: 5px;
+
+@import "sprite/*.png";
+
+@import 'helpers/variaveis.scss';
+@import 'helpers/mixins.scss';
+
+@import 'base/normalize'; //sempre colocar extensao quando for arquivo css
+@import 'layout/geral';
+@import 'layout/header';//com extensão
+@import 'layout/destaque'; // sem extensão
+@import 'layout/sobre';
+@import 'layout/planos';
+@import 'layout/blog';
+@import 'layout/contato';
+@import 'layout/footer';
